@@ -13,4 +13,4 @@ Future directions for this project include new aspects that download the supplem
 Keywords: web-scraping, research articles, R package
 
 
-More information can be found on the corresponding [Github repository](link to the repo)
+More information can be found on the corresponding [Github repository](https://github.com/Sabrenar/PaperSearch)
