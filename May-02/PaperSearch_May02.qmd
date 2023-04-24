@@ -2,7 +2,7 @@
 author: "Sabrena Rutledge, Kundan Kumar
 title: "PaperSearch: Web-scraping Research Articles for Information"
 date: "2023-05-02"
-image: "project-sample-img.png"
+image: "PaperSearch_hexSticker.png"
 ---
  
  
