@@ -1,0 +1,16 @@
+---
+author: "Sabrena Rutledge, Kundan Kumar
+title: "PaperSearch: Web-scraping Research Articles for Information"
+date: "2023-05-02"
+image: "PaperSearch_hexSticker.png"
+---
+ 
+ 
+Given the varying ways authors can provide data and supplementary materials in their publications, it can be troublesome to find the information you are seeking within the article. Here, we introduce PaperSearch, a package that will find relevant pieces of information from research articles. 
+The goal of this package is to reduce time lost searching for descriptions, links, or analyzing supplementary tables. Currently, the package has three aspects: 1) finding the article name, journal, and author list; 2) finding the URLs for the article’s data and a description for each URL; 3) finding descriptions for each supplementary table within the article. 
+Future directions for this project include new aspects that download the supplementary tables; find relevant filters for the supplementary tables within the article; and filtering and displaying the supplementary tables for analysis.
+
+Keywords: web-scraping, research articles, R package
+
+
+More information can be found on the corresponding [Github repository](https://github.com/Sabrenar/PaperSearch)
