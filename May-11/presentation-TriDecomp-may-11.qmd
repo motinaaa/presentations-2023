@@ -1,6 +1,6 @@
 ---
-author: "First Author, Second Author, Third Author"
-title: "The title of our talk"
+author: "Alexandra Arabio, Ian Parzyszek"
+title: "TriDecomp: an extension of the package 'handwriter'"
 date: "2023-05-11"
 time: "14:15"
 image: project-sample-img.png
