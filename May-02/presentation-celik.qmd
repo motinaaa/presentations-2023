@@ -2,11 +2,13 @@
 author: "Harun Celik"
 title: "aRcGeo: initializing arcGIS and arcpy connections"
 date: "2023-05-02"
-image: "aRcGeo_Init_Example.PNG"
+image: aRcGeo_Init_Example.PNG
 ---
  
  
 ## Abstract
+
+![](aRcGeo_Init_Example.PNG)
 
 The development of `aRcGeo` is motivated by the problem of loading arcGIS spatial tools in an R environment. The `aRcGeo` package aims to unify the process of initializing an ArcGIS product and importing the `arcpy` python module into an R session. The function `aRcGeo::init_arcpy()` makes a call to `arcgisbinding` and imports from the `reticulate` package to initialize the `arcpy` python module. The function can take the name of a conda environment that is found when runnning `reticulate::conda_list()` or a local path to the `arcpy` python.exe file. Since all installations of `arcpy` automatically create a conda environment, the `conda_env` argument is preferrable. 
 
