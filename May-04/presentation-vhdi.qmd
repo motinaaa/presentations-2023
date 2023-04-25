@@ -1,5 +1,5 @@
 ---
-author: "First Author, Second Author, Third Author"
+author: "Yichuan Bai, Caio dos Santos, An Phan, Yingchao Zhou"
 title: "Valid highest density intervals"
 date: "2023-05-04"
 time: "14:15"
@@ -9,12 +9,12 @@ image: "project-sample-img.png"
  
 ## Abstract
 
-Our final project is motivated by the problem of ... 
+Our final project is motivated by the problem of obtaining highest density interval, or shortest prediction interval from data for a unimodal distribution. [Frey, J. (2013). Data-driven nonparametric prediction intervals. *Journal of Statistical Planning and Inference*, 143, 1039-1048.](https://doi.org/10.1016/j.jspi.2013.01.004) point out that naively searching for the shortest prediction interval causes under coverage problem, and propose to apply a correction to the nominal error rate. In short, if the nominal error rate is $\alpha$ and we have a data set of size $n$, Frey (2013)propose to search for the shortest prediction interval with error rate $\alpha - 1.12\sqrt{\alpha/n}$. The prediction intervals produced by this method have approximate worst case guarantee, so we call this method "conservative".
 
-Our approach to solving this problem is to ...
+Our approach to solving this problem is to use cross validation to determine the corrected nominal error rate $\alpha'$, which may give tighter prediction intervals than Frey (2013). However, this method has not been shown any theoretical guarantee. 
 
-The key findings we will present on are: ...
+We compare the performance of the three methods of searching for the shortest prediction interval: searching without any correction, the conservative method proposed by Frey(2013), and correction using cross validation. A method that chooses a prediction interval at random is also implemented to illustrate the cause of under coverage problem in naive searching.  
 
-Some of the limitations were/we will be using this now for/our future work will be ...
+Our future work will be to gain a better understanding of the under coverage problem, and find methods that have (approximate) theoretical guarantee. 
 
-More information can be found on the corresponding [Github repository](link to the repo)
+More information can be found on the corresponding [vhdi](https://github.com/xyzyc/vhdi)
