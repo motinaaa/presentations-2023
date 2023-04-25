@@ -1,0 +1,20 @@
+---
+author: "First Author, Second Author, Third Author"
+title: "The title of our talk"
+date: "2023-05-11"
+time: "14:15"
+image: project-sample-img.png
+---
+ 
+ 
+## Abstract
+
+Our final project is motivated by the problem of ... 
+
+Our approach to solving this problem is to ...
+
+The key findings we will present on are: ...
+
+Some of the limitations were/we will be using this now for/our future work will be ...
+
+More information can be found on the corresponding [Github repository](link to the repo)
