@@ -1,19 +1,15 @@
 ---
-author: "First Author, Second Author, Third Author"
-title: "The title of our talk"
+author: "Harun Celik"
+title: "aRcGeo: initializing arcGIS and arcpy connections"
 date: "2023-05-02"
-image: "project-sample-img.png"
+image: "aRcGeo_Init_Example.PNG"
 ---
  
  
 ## Abstract
 
-Our final project is motivated by the problem of ... 
+The development of `aRcGeo` is motivated by the problem of loading arcGIS spatial tools in an R environment. The `aRcGeo` package aims to unify the process of initializing an ArcGIS product and importing the `arcpy` python module into an R session. The function `aRcGeo::init_arcpy()` makes a call to `arcgisbinding` and imports from the `reticulate` package to initialize the `arcpy` python module. The function can take the name of a conda environment that is found when runnning `reticulate::conda_list()` or a local path to the `arcpy` python.exe file. Since all installations of `arcpy` automatically create a conda environment, the `conda_env` argument is preferrable. 
 
-Our approach to solving this problem is to ...
+The key findings I will be presenting on are the challenges posed by trying to initialize an ArcGIS environment in R without using the `init_arcpy()` function as well as demonstrating some of the capabilities in using ArcGIS functions in R after an initialization. I will also be demonstrating stress tests with invalid argument names and classes to demonstrate how the function responds. One major limitation of the package is that `arcgisbinding` must be installed in order for the function to initialize a connection to ArcGIS. The former package is not distributed for `aRcGeo` and is distributed as a windows only binary source file since ArcGIS Pro is a windows only software.  
 
-The key findings we will present on are: ...
-
-Some of the limitations were/we will be using this now for/our future work will be ...
-
-More information can be found on the corresponding [Github repository](link to the repo)
+More information can be found on the corresponding [aRcGeo Github repository](https://github.com/HarunCelikOtto/aRcGeo)
