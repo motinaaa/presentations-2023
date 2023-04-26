@@ -1,0 +1,12 @@
+---
+title: "Methods for computing score-based likelihood ratios (SLRs) with dependent data"
+author: "Valerie Han, Marie Hardt, Anyesha Ray"
+date: "2023-05-04"
+time: "14:15"
+image: "project-sample-img.png"
+---
+ 
+ 
+## Abstract
+
+Score-based likelihood ratios (SLRs) are a statistical method used to quantify the weight of evidence and have been used in many forensic disciplines. Using the context of footwear evidence to make the problem more concrete, similarity/dissimilarity scores are computed from pairs of shoeprints. Therefore, there is dependence between scores that share a shoeprint or shoe in common. Given up to 5 similarity/dissimilarity scores, we include four different methods of computing the SLR that address the dependence. We also provide a visualization of the resulting SLR using an ROC curve. More information can be found on the corresponding [Github repository](https://github.com/valeriehan6/scoreLR).
