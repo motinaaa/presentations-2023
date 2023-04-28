@@ -1,5 +1,5 @@
 ---
-author: "Logan Johnson, Kelly Nascimento, Charchit Shukla, and Matthew Kavanaugh"
+author: "Logan Johnson, Kelly Nascimento Thompson, Charchit Shukla, and Matthew Kavanaugh"
 title: "foodRecall: Interface to access and visualize food recall data from the openFDA API"
 date: "2023-05-11"
 time: "14:15"
@@ -9,12 +9,6 @@ image: foodRecall.png
  
 ## Abstract
 
-Our final project is motivated by the problem of ... 
-
-Our approach to solving this problem is to ...
-
-The key findings we will present on are: ...
-
-Some of the limitations were/we will be using this now for/our future work will be ...
+Our final project is motivated by the need for more visualization in healthcare, especially food-related problems. Our approach to solving this problem is to develop functions to pull the data using web-scraping methods and R shiny app learned in class. Our R package contains code, data, and documentation about the foodborne outbreaks that happened in the United States in the recent decade. This package visualizes the data collected from the Food and Drug Administration (FDA) in a user-friendly manner. The data is drawn from the openFDA API. It helps highlight the city, state, country, and time the outbreak occurred. We created functions to input dates and locations that give the output for the types of foodborne illnesses that happened, which types of food they were associated with, how many cases of each type occurred, and the geographic location of occurrences. Our Shiny Application provides users with an interface to select particular inputs, such as years and states, and display outputs in a graphical format. This package should enable users with minimal R programming experience to visualize foodborne disease outbreaks and associated data in an understandable and coherent structure. The key findings from this project are the cities where the most foodborne illnesses occur. Some limitations were using all available 22 columns of data to prescribe or suggest a plan to overcome the foodborne disease challenge. We could generate more insights using data science methods from the scrapped data. Our future work will include offering solutions to target the problems faced by the food industry and FDA. One of our hypotheses is that the foodborne illness might follow a Pareto distribution. We could take advantage of the insights gained about each city in a visualized way to reduce future illness and have a healthy population. The work can be extended to modify public health policies.
 
 More information can be found on the corresponding [Github repository](https://github.com/loganjohnson0/foodRecall.git)
