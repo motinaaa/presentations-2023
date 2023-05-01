@@ -1,0 +1,20 @@
+---
+author: "Alexandra Arabio, Ian Parzyszek"
+title: "TriDecomp: an extension of the package 'handwriter'"
+date: "2023-05-27"
+time: "14:15"
+image: project-sample-img.png
+---
+ 
+ 
+## Abstract
+
+Our final project is motivated by the problem of there not being enough support to strengthen the discipline of forensic science handwriting analysis. Handwriting comparative analysis is based on the principle that no two individuals can produce the same writing and that an individual cannot exactly reproduce his/her handwriting. This project aims to assess and quantify the natural variations produced by a distinct writer. In an attempt to support traditional examination with objective measures, this project provides results from a study where features of handwriting are examined through point decomposition and rainbow triangulation. 
+
+Our approach to solving this problem is to formulate a new method that we can automate through packaging in 'R'. Using this method to examine handwriting samples, more specific information can be obtained from each exemplar and can be standardized to be compared both within a writer and between different writers. The characteristics or landmarks of each handwriting sample that gets marked as a different color node include the location that a pen stroke begins (marked blue), the location that a pen stroke ends (marked orange), and any location where a pen line overlaps itself (marked pink), the highest location that a pen stroke reaches (marked green), the lowest location that a pen stroke reaches (marked purple)Triangles can provide information on angles, edge slopes, edge lengths, and areas that all prove useful for quantitative analysis and when trying to compare triangles in terms of similarity and possible congruency or similarity. 
+
+The key findings we will present on are: By forming rainbow triangles over these samples, it is possible to gauge the variation within a single writer and to compare these quantitative values to other samples of unknown sources. Rainbow triangles are formed so that each vortex or node within a triangle set has a unique color, and each edge is unique to its triangle so that it is not to be used to form a different triangle in another set. Using this information, the study aims to form a quantitative analysis of handwriting samples and to calculate how similar or dissimilar two samples are from one another
+
+We will be using this now  to form these triangles from multiple samples from several different writers and to group, identify, and accurately determine what samples came from which writer. Multiple summary statistics will be explored to determine whether any can be used to discriminate between inclusions and exclusions using data where ground truth is known, such as a true match. 
+
+More information can be found on the corresponding [Github repository](https://github.com/AArabio/TriDecomp)
