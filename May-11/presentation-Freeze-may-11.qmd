@@ -1,0 +1,21 @@
+---
+author: "Gino Beltran"
+title: "No Freeze Growing Window for Corn"
+date: "2023-05-11"
+time: "14:15"
+image: project-sample-img.png
+---
+ 
+ 
+## Abstract
+
+Over 13 million acres of corn are planted in Iowa every year, and over 80 million acres in the USA as a whole, and in 2021 US corn was worth over $86 billions (USDA)--the US is a corn powerhouse.  
+
+Early corn planting favors higher yield,  but germination and root development will not occur below 50F. Moreover, the risk of chilling or freeze damage increases the earlier corn is planted when sustain temperatures below 25F occur.
+
+To understand the risk of chilling or freeze damage, a package was develop to estimate the occurrence of temperatures below 50F for any given day, given the GPS coordinates for a given location and the historical 30-year weather information from public sources such as Iowa Environmental Mesonet (IEM) https://mesonet.agron.iastate.edu/
+
+Outcome includes 1) Percent occurrence of temperatures below 50F and below 32F. 2) Earliest planting and latest harvest dates with no historical (30year) risk of damage due to low temperatures. 
+
+ 
+
