@@ -1,5 +1,5 @@
 ---
-title: "Methods for computing score-based likelihood ratios (SLRs) with dependent data"
+title: "14:45 - 15:05ish Methods for computing score-based likelihood ratios (SLRs) with dependent data"
 author: "Valerie Han, Marie Hardt, Anyesha Ray"
 date: "2023-05-04"
 time: "14:15"

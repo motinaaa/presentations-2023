@@ -1,8 +1,7 @@
 ---
-author: "First Author, Second Author, Third Author"
-title: "The title of our talk"
+author: "Muxin Hua and Tyler Wiederich"
+title: "15:10 - 15:25 ish"
 date: "2023-05-04"
-time: "14:15"
 image: "project-sample-img.png"
 ---
  

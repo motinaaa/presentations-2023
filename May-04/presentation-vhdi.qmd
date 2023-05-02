@@ -1,6 +1,6 @@
 ---
 author: "Yichuan Bai, Caio dos Santos, An Phan, Yingchao Zhou"
-title: "Valid highest density intervals"
+title: "14:15 - 14:40 ish Valid highest density intervals"
 date: "2023-05-04"
 time: "14:15"
 image: "project-sample-img.png"
