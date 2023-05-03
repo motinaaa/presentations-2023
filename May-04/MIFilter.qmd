@@ -1,0 +1,20 @@
+---
+author: "Motahareh Kashanian, Parvin Mohammadi, Atefeh Anisi"
+title: "MIFilter: Efficient Feature Selection for Classification Models with High Correlation"
+date: "2023-05-04"
+time: "14:15"
+image: "project-sample-img.png"
+---
+ 
+ 
+## Abstract
+
+Our final project is motivated by the challenge of dealing with highly correlated features in classification models, which can result in poor performance and significant computational resources consumption. To address this problem, we propose MIFilter, an efficient feature selection package that reduces dimensionality by removing correlated and irrelevant features.
+
+Our approach includes dropping features with mutual information scores below a user-defined threshold and using mutual information scores to sort remaining features and drop those with high pairwise linear correlation coefficients above a user-defined threshold. MIFilter aims to improve the accuracy and efficiency of classification models by producing more reliable results in less time.
+
+The key findings of our project include the successful implementation of MIFilter and its ability to efficiently remove highly correlated features in classification models.
+
+One limitation of our project is that MIFilter is currently only designed for classification models. Future work will focus on expanding the package's functionality to other machine learning tasks.
+
+More information about our project, including code and documentation, can be found on the corresponding [https://github.com/Atefeha1995/MI_correlation-based-filtering-algorithm.git].
