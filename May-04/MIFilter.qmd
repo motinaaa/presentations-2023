@@ -1,8 +1,7 @@
 ---
 author: "Motahareh Kashanian, Parvin Mohammadi, Atefeh Anisi"
-title: "MIFilter: Efficient Feature Selection for Classification Models with High Correlation"
+title: "14:55 - 15:15 MIFilter: Efficient Feature Selection for Classification Models with High Correlation"
 date: "2023-05-04"
-time: "14:15"
 image: "project-sample-img.png"
 ---
  
