@@ -1,6 +1,6 @@
 ---
 author: "Gino Beltran"
-title: "No Freeze Growing Window for Corn"
+title: "12:25 - 12:35 No Freeze Growing Window for Corn"
 date: "2023-05-11"
 time: "14:15"
 image: project-sample-img.png

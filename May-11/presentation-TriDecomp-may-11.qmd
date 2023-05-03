@@ -1,6 +1,6 @@
 ---
 author: "Alexandra Arabio, Ian Parzyszek"
-title: "TriDecomp: an extension of the package 'handwriter'"
+title: "12:10 - 12:25 TriDecomp: an extension of the package 'handwriter'"
 date: "2023-05-27"
 time: "14:15"
 image: project-sample-img.png

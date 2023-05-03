@@ -1,8 +1,7 @@
 ---
 author: "Logan Johnson, Kelly Nascimento Thompson, Charchit Shukla, and Matthew Kavanaugh"
-title: "foodRecall: Interface to access and visualize food recall data from the openFDA API"
+title: "12:35 - 13:00 foodRecall: Interface to access and visualize food recall data from the openFDA API"
 date: "2023-05-11"
-time: "14:15"
 image: foodRecall.png
 ---
  
