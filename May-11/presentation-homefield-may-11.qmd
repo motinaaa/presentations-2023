@@ -1,0 +1,24 @@
+---
+author: "Landon Getting, Sudesh Bhagat"
+title: "homefield: querying, visualizing, and analyzing regional relevance"
+date: "2023-05-11"
+time: "14:15"
+image: homefield.png
+---
+ 
+ 
+## Abstract <img src="https://github.com/Landon-Getting/homefield-graphics/blob/main/sticker.png?raw=true" align="right" height="138" />
+
+The R homefield package helps gather data, create visuals, and analyze regional relevance. At the crux of homefield is the `homefield_map()` function which creates a homefield map.
+
+![](https://github.com/Landon-Getting/homefield-graphics/blob/main/example_map.png?raw=true)
+
+`homefield_map()` calculates the distance from each given entity to every U.S. county and assigns territory based on proximity. Each entity's territory is distinguished via color and an image representing the entity. Users can create homefield maps with their own entities or use package functions such as `cfb_undefeated()` or `cfb_conquest()` to generate already structured data. 
+
+`homefield_stats()` enables users to analyze homefield maps by providing summary statistics such as size of territory, water area within territory, and population within territory. These stats can be further visualized in custom graphics or wielded by `homefield_racing()` to create a racing bar plot of map statistics over time.
+
+![](https://github.com/Landon-Getting/homefield-graphics/blob/main/homefield_racing.gif?raw=true)
+
+Future work will focus on improving the placement and sizing of images on maps, reducing function runtime, and adding more parameters for graphical flexibility. 
+
+More information can be found on the corresponding [Github repository](https://github.com/Landon-Getting/homefield)
