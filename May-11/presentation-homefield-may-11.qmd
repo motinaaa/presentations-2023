@@ -2,7 +2,6 @@
 author: "Landon Getting, Sudesh Bhagat"
 title: "homefield: querying, visualizing, and analyzing regional relevance"
 date: "2023-05-11"
-time: "14:15"
 image: homefield.png
 ---
  
