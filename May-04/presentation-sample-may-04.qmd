@@ -1,19 +1,20 @@
 ---
 author: "Muxin Hua and Tyler Wiederich"
-title: "15:10 - 15:25 Title"
+title: "15:15 - 15:30 Photopal"
 date: "2023-05-04"
 image: "project-sample-img.png"
 ---
  
- 
+
 ## Abstract
 
-Our final project is motivated by the problem of ... 
+Our final project is motivated by the problem of creating a color palette from images. 
+The approach we took is to take the red-green-blue values from the image and use k-means clustering to group the most similar colors.
+With the colors generated, we implement a method to check color contrasts to verify that the palette has colors that are distinguishable to the human eye.
 
-Our approach to solving this problem is to ...
+In addition to creating a palette, we also created a function to create the colorblind equivalent image using the common types of colorblindness (red, green, and blue) and used the same k-means clustering over the filtered image to create a palette. 
 
-The key findings we will present on are: ...
+Although we have a method to check for small color contrasts, colors from an image may not be optimized for data visualizations. 
+This is especially true with the colorblind filters since color is inherently removed from the source image, leaving less color differentiation. 
 
-Some of the limitations were/we will be using this now for/our future work will be ...
-
-More information can be found on the corresponding [Github repository](link to the repo)
+More information can be found on the corresponding [Github repository](https://github.com/Hiiiua/Photopal)
